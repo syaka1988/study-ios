@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var myWebView: WKWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let appleSite = URL(string: "https://www.apple.com/jp/")!
+        myWebView.load(URLRequest(url: appleSite))
     }
 
     override func didReceiveMemoryWarning() {

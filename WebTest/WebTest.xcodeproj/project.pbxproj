@@ -11,7 +11,6 @@
 		D2917A9E20E88549002EC391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2917A9D20E88549002EC391 /* ViewController.swift */; };
 		D2917AA120E88549002EC391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2917A9F20E88549002EC391 /* Main.storyboard */; };
 		D2917AA320E8854B002EC391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2917AA220E8854B002EC391 /* Assets.xcassets */; };
-		D2917AA620E8854B002EC391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2917AA420E8854B002EC391 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		D2917A9D20E88549002EC391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2917AA020E88549002EC391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2917AA220E8854B002EC391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2917AA520E8854B002EC391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2917AA720E8854B002EC391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				D2917A9D20E88549002EC391 /* ViewController.swift */,
 				D2917A9F20E88549002EC391 /* Main.storyboard */,
 				D2917AA220E8854B002EC391 /* Assets.xcassets */,
-				D2917AA420E8854B002EC391 /* LaunchScreen.storyboard */,
 				D2917AA720E8854B002EC391 /* Info.plist */,
 			);
 			path = WebTest;
@@ -122,7 +119,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2917AA620E8854B002EC391 /* LaunchScreen.storyboard in Resources */,
 				D2917AA320E8854B002EC391 /* Assets.xcassets in Resources */,
 				D2917AA120E88549002EC391 /* Main.storyboard in Resources */,
 			);
@@ -149,14 +145,6 @@
 				D2917AA020E88549002EC391 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D2917AA420E8854B002EC391 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2917AA520E8854B002EC391 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WebTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WebTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
